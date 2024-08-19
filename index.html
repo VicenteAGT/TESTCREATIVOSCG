@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="logo.png" alt="Logo" class="logo">
+            <div class="buttons-container">
+                <button class="member-button"><span class="member-text">¡Ya Soy Miembro!</span></button>
+                <button class="cart-button"><i class="fa fa-shopping-cart"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="video-background">
+        <video src="video.mp4" autoplay muted loop></video>
+    </div>
+
+    <div class="bottom-section">
+        <i class="fa fa-camera camera-icon"></i> <!-- Ícono de cámara -->
+        <p class="bottom-text">Junto con mi cámara he capturado a gente maravillosa...</p>
+
+        <!-- Sección del álbum de imágenes -->
+        <div class="image-gallery-container">
+            <button class="prev-button">&lt;</button>
+            <div class="image-gallery">
+                <img src="imagen1.jpg" alt="Imagen 1" class="gallery-image">
+                <img src="imagen2.jpg" alt="Imagen 2" class="gallery-image">
+                <img src="imagen3.jpg" alt="Imagen 3" class="gallery-image">
+                <img src="imagen4.jpg" alt="Imagen 4" class="gallery-image">
+            </div>
+            <button class="next-button">&gt;</button>
+        </div>
+    </div>
+
+    <div class="additional-text">
+        ...en lugares asombrosos
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
